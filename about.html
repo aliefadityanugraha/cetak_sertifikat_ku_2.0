@@ -1,0 +1,138 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cetak Sertifikat | SMK PGRI 2 Kediri</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css"
+    />
+    <link rel="shortcut icon" href="img/logo.png" />
+  </head>
+  <body style="display: flex;">
+    <nav
+      class="navbar is-fixed-top"
+      role="navigation"
+      aria-label="main navigation"
+    >
+      <div class="navbar-brand">
+        <a class="navbar-item" href="https://bulma.io">
+          <img
+            src="https://img.icons8.com/ios-filled/50/000000/bookmark--v2.png"
+            width="28"
+            height="28"
+          />
+        </a>
+        <a
+          role="button"
+          class="navbar-burger"
+          aria-label="menu"
+          aria-expanded="false"
+          data-target="navbarBasicExample"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a href="index.html" class="navbar-item"> SMK PGRI 2 Kediri </a>
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link"> More </a>
+
+            <div class="navbar-dropdown">
+              <a href="about.html" class="navbar-item"> About </a>
+              <hr class="navbar-divider" />
+              <a href="https://api.whatsapp.com/send?phone=6289510067618" class="navbar-item">Contact & Report an issue </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="navbar-end">
+          <div class="navbar-item">
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="card">
+      <div class="card-image">
+        <figure class="image is-16by5">
+          <img src="img/portfolio2.jpg" alt="Placeholder image" />
+        </figure>
+      </div>
+      <div class="card-content">
+        <div class="media">
+          <div class="media-content">
+            <p class="title is-4" style="text-align: center;">Tentang Web App Cetak Sertifikat</p>
+          </div>
+        </div>
+
+        <div class="content">
+          <div class="container">
+            <div class="columns is-dekstop">
+             <div class="column">
+              <div class="image image is-48x48" style="display: block; margin: auto;">
+                <img src="https://img.icons8.com/color/144/000000/html-5--v1.png"  width="300" height="28">
+              </div>
+              <div class="image image is-48x48" style="display: block; margin: auto;">
+                <img src="https://img.icons8.com/color/144/000000/css3.png"  width="300" height="28">
+              </div>
+              <div class="image image is-48x48" style="display: block; margin: auto; ">
+                <img src="https://img.icons8.com/color/144/000000/javascript.png"  width="300" height="28">
+              </div>
+              <div class="image image is-48x48" style="display: block; margin: auto;">
+                <img src="https://img.icons8.com/officel/144/000000/php-logo.png"  width="300" height="28">
+              </div>
+              <div class="image image is-48x48" style="display: block; margin: auto;">
+                <img src="https://img.icons8.com/fluent/144/000000/visual-studio-code-2019.png"  width="112" height="28">
+              </div>
+              <div class="image image is-48x48" style="display: block; margin: auto;">
+                <img src="https://bulma.io/images/bulma-logo.png" width="300" height="28">
+                </div>
+                <div class="column" style="text-align: center;">
+                  <a href=""> Image Source</a> |
+                  <a href=""> Icon8 Source</a>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum voluptate sequi quam quaerat numquam quas nisi tempora minima nesciunt, incidunt nam cupiditate sapiente nostrum similique officia? Nihil dolorem quo libero!
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="footer">
+  <div class="content has-text-centered">
+    <p>
+      <strong>&copy; Copyright 2021</strong> by <a href="https://jgthms.com">Alief Aditya</a>
+    </p>
+  </div>
+</footer>
+    </div>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const $navbarBurgers = Array.prototype.slice.call(
+          document.querySelectorAll(".navbar-burger"),
+          0
+        );
+
+        if ($navbarBurgers.length > 0) {
+          $navbarBurgers.forEach((el) => {
+            el.addEventListener("click", () => {
+              const target = el.dataset.target;
+              const $target = document.getElementById(target);
+
+              el.classList.toggle("is-active");
+              $target.classList.toggle("is-active");
+            });
+          });
+        }
+      });
+    </script>
+  </body>
+</html>
